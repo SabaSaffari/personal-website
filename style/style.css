@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color:white;
+}
+.headerContainer{
+    background-color: rgb(247, 188, 154);
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.saba{
+    border: 1px solid black;
+    padding: 45px 25px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    width:100px;
+}
+.saba p{
+    position: relative;
+    bottom: -110%;
+    left: 15%;
+    font-size: 18px;
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.navigation div{
+    background-color: whitesmoke;
+    border: 1px solid rgb(231, 235, 241) ;
+    padding: 45px 25px;
+    width: 100px;
+}
+.navigation div:first-child{
+    background-color: #fff714;
+    border: 1px solid #fff714;
+}
+.navigation div a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    cursor: pointer;
+    padding-left: 14px; 
+    position: absolute;
+    bottom: 22%;
+}
+.navigation div i{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.navigation .burger-icon{
+    display: none;
+}
+.middleBox{
+    width: 80%;
+    margin: 100px auto;
+}
+.number{
+    padding: 45px 25px;
+    background: #f3db33;
+    color: white;
+    width: 100px;
+    display: flex;
+}
+.number p{
+    position: relative;
+    left: 25px;
+    font-size: 30px;
+    bottom: -26px;
+    line-height: 32px;
+    color: black;
+}
+.flex{
+    display: flex;
+}
+.flex p:nth-child(2){
+    background-color: yellow;
+    padding: 29px 16px;
+    font-size: 28px;
+    width: 35%;
+}
+.paragraph1{
+    color: black;
+    background-color: white;
+    width: 35%;
+    padding: 24px;
+    font-size: 12px;
+    margin-left: 100px;
+}
+.paragraph2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 11px;
+    padding: 18px;
+    margin-left: 100px;
+}
+.paragraph2 i{
+    margin-left: 12px;
+    font-size: 14px;
+}
+.lineWithNum{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.lineWithNum p:nth-child(1){
+    width: 100%;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.lineWithNum p:nth-child(2){
+    width: 100%;
+    border-bottom: 3px solid rgb(244, 244, 245);
+}
+.lineWithNum p:nth-child(3){
+    width: 100%;
+    border-bottom: 3px solid #f3f2f5ad
+}
+.endBoxes{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    line-height: 16px;
+}
+.endBoxes h3{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.endBoxes p{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.endBoxes i{
+    background-color: #fff714;
+    width: 25%;
+    padding: 35px 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+}
+.endBoxes div{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#yellowLine{
+    height: 20px;
+    background-color: yellow;
+}
+.firstPara{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+}
+.firstPara p{
+    font-size: 30px;
+}
+.firstPara i{
+    font-size: 30px;
+    color: #fff714;
+    margin-left: 25px;
+}
+.topMain{
+    display: flex;
+}
+#yellowBox{
+    height: 70px;
+    width: 10%;
+    background-color: #f3db33;
+}
+.topMain h3{
+    height: 70px;
+    background-color: yellow;
+    padding: 22px 20px;
+}
+hr {
+    width: 60%;
+    height: 4px;
+    background-color: rgb(206, 199, 199);
+    margin-top: 30px;
+}
+.topMain p{
+    background-color: rgb(206, 199, 199);
+    padding: 22px 8px;
+    font-size: 14px;
+}
+.topMain i{
+    background-color: yellow;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.links{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 12px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 15px 15px;
+}
+.links a:first-child{
+    background-color: rgb(206, 199, 199);
+    padding: 15px 15px;
+}
+.firstImages div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    width: 80%;
+    justify-content: space-between
+}
+.phone{
+    display: flex;
+    margin-top: 100px;
+}
+.iphoneList{
+    display: flex;
+    margin-top: 5%; 
+    width: 50%;
+}  
+#blueBox{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(150, 150, 197);
+}
+#sizePhone{
+    font-size: 500px;
+    position: relative;
+    bottom: 35%; 
+}
+#blueBox2{
+    height: 150px;
+    width: 60%;
+    background-color: rgb(150, 150, 197);
+    overflow: hidden;
+}
+.boxWithIcons{
+    display: flex;
+    width: 50%;
+} 
+.icons{
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+    height: 45%;
+}
+.borderTop{
+    border-top: 20px solid yellow;
+    width: 50%
+}
+.icons i{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 28px;
+    font-size: 35px;
+}
+.setPadding{
+    line-height: 22px;
+    padding: 20px 20px;
+}
+.borderRight{
+    border-right: 20px solid blue;
+}
+.topLine{
+    display: flex;
+    overflow: hidden;
+}
+.topLine p{
+    background-color: rgb(206, 199, 199);
+    padding: 20px 10px;
+    font-size: 14px;
+}
+.topLine i{
+    background-color: yellow;
+    padding: 20px 10px; 
+    font-size: 25px;
+    width: 3%
+}
+.topLine h3{
+    height: 70px;
+    background-color: yellow;
+    padding: 20px;
+    width: 17%;
+    text-align: center;
+}
+.lastImages{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.lastImages div{
+    display: flex;
+    flex-direction: column;
+}
+.lastImages h4{
+    margin: 10px 26px 20px 0;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+.lastImages p{
+    margin: 0px 20px 10px 0;
+}
+#readMore{
+    display: flex;
+    flex-direction: row;
+}
+#readMore p{
+    background-color: rgb(206, 199, 199);
+    margin: 5px 0px 5px 0;
+    padding: 10px;
+}
+#readMore i{
+    background-color: yellow;
+    margin: 5px 8px 5px 0;
+    padding: 10px;
+}
+.banner{
+    display: flex;
+    width: 90%
+}
+.grayBox{
+    width: 20%;
+    background-color: rgb(206, 199, 199);
+}
+.quote{
+    width: 12%;
+    background-color: #f1ea1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote i{
+    padding: 30px 0px;
+    background-color: yellow;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.banner p{
+    width: 100%;
+    background-color: rgb(206, 199, 199);
+    font-size: 26px;
+    padding: 70px 20px 20px 20px;
+}
+.logos{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+.endPart{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+}
+.lastYellowBox{
+    width: 12%;
+    background-color: #f3db33;
+}
+.lastSaba{
+    background-color: yellow;
+    width: 22%; 
+}
+.lastSaba h3{
+    font-size: 40px;
+    padding: 25px 40px;
+}
+.lastSaba p{
+    padding:40px 40px;
+    font-size: 20px;
+}
+.lastSaba i{
+    font-size: 45px;
+}
+.lastSaba div{
+    padding: 25px 40px;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: -40%;
+    width: 100%;
+}
+.title h3{
+    background-color: yellow;
+    padding: 20px;
+    margin: 70px 0px 93px 27px;
+}
+.title i{
+    font-size: 40px;
+    background-color: yellow;
+    padding: 20px;
+    margin:70px 0px 75px 100px;
+}
+.lastColumn{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.lastColumn i{
+    font-size: 14px;
+    margin: 0 20px;
+}
+.lastColumn p{
+    font-size: 12px;
+}
+.lastColumn time{
+    font-size: 10px;
+}
+.flexEnd{
+    display: flex;
+    padding: 10px;
+    margin: 0 35px;
+}
+.blackBox{
+    width: 66%;
+    position: absolute;
+    left: 34%;
+    bottom: 7%;
+}
+.latestPosts2{
+    width: 33%;
+    padding: 30px;
+}
+.contactInfo{
+    width: 67%;
+    padding: 30px;
+}
+.author{
+    float: right;
+    margin: 5px 10px 0 10px;
+    padding: 5px 20px 0 20px;
+}
+
+/* @media */
+
+@media screen and (max-width:325px){
+    .navigation{
+        display: none;
+        position: absolute;
+    }
+    .burger-icon{
+        display: block;
+        position: relative;
+    }
+    .flexContainer{
+        width: 100%
+    }
+    .saba{
+        width: 70px;
+        padding: 30px 10px;
+        border: none;
+    }
+    .saba p{
+        font-size: 14px;
+        position: unset;
+        text-align: center;
+    }
+    .burger-icon{
+        padding: 20px 35px;
+        font-size: 32px;
+    }
+    .middleBox{
+        width: 100%;
+    }
+    .number p{
+        position: unset;
+        font-size: 18px;
+        line-height: 0%;
+    }
+    .flex p:nth-child(2){
+        padding: 30px 12px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .paragraph1{
+        width: 100%;
+        margin: 0;
+    }
+    .lineWithNum{
+        display: none;
+    }
+    .endBoxes{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .endBoxes i{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .endBoxes div{
+        padding: 10px;
+        text-align: center;
+    }
+    .firstPara{
+        padding: 25px 8px;
+        width: 100%;
+    }
+    .firstPara p{
+        font-size: 20px;
+    }
+    #yellowBox{
+        display: none;
+    }
+    .topMain{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .topMain h3{
+        font-size: 14px;
+    }
+    .topMain P{
+        width: 70%;
+    }
+    .topMain i{
+        width: 30%;
+    }
+    hr{
+        display: none;
+    }
+}

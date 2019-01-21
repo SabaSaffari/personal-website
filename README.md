@@ -1,2 +1,2 @@
 # personal-website
-my first web site
+my first website
